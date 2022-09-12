@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 pub fn user_module(io_in: u8) -> u8 {
-  io_in
+  !io_in
 }
 
 #![test]
