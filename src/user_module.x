@@ -10,5 +10,6 @@ pub fn user_module(io_in: u8) -> u8 {
 #![test]
 fn user_module_test() {
   let _= assert_eq(user_module(u8:0b0010_1010), u8:3);
+  let _= assert_eq(user_module(u8:0b0110_1010), u8:4);
   _
 }
